@@ -1,3 +1,11 @@
-#Basic definition of block
+#Basic definition of blockchain
 
-class blockchain(object):
+class BlockChain(object):
+
+    def __init__(self):
+        self.chain = []
+        self.current_transactions = []          # value transactions
+        self.smart_contract = []                # execute smart contract
+        self.link = []                          # pointer/link to document physical storage
+
+
