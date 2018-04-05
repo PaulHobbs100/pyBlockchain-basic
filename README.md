@@ -8,12 +8,19 @@ playground for experimentation of concepts.
 The Initial block structure is based on the following
 
 1.Index
+
 2.Timestamp
+
 3.Transactions
+
 4.Contract
+
 5.Link
+
 6.Proof
+
 7.PreviousHash
+
 
 
 1. Index being the location in the chain ( eg genesis block index=0)
@@ -22,3 +29,5 @@ The Initial block structure is based on the following
 4. Contract, Code that can be saved and executed ( like Ethereum, smart contract)
 5. Link, Link to external document store, not physically storing documents within the block itself due to
    size and implications.
+6. Proof, Proof of work  and/or proof of state
+7. PreviousHash, Hash of the previous block
