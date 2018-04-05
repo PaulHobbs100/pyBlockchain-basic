@@ -7,27 +7,12 @@ playground for experimentation of concepts.
 
 The Initial block structure is based on the following
 
-1.Index<br>
-        Index being the location in the chain ( eg genesis block index=0)<br>
-2.Timestamp
-
-3.Transactions
-
-4.Contract
-
-5.Link
-
-6.Proof
-
-7.PreviousHash
+1.Index: Index being the location in the chain ( eg genesis block index=0)<br>
+2.Timestamp: When the block was completed
+3.Transactions: Transactions, value transactions (like Bitcoin)
+4.Contract: Code that can be saved and executed (like Ethereum)
+5.Link: Link to external document store. Not stored in-block for size and performance reasons
+6.Proof: Proof or work and/or proof of state
+7.PreviousHash: Hash of the previous block
 
 
-
-1.
-2. Timestamp, when the block was completed
-3. Transactions, saved value transactions ( like Bitcoin)
-4. Contract, Code that can be saved and executed ( like Ethereum, smart contract)
-5. Link, Link to external document store, not physically storing documents within the block itself due to
-   size and implications.
-6. Proof, Proof of work  and/or proof of state
-7. PreviousHash, Hash of the previous block
