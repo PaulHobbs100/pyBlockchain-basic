@@ -7,8 +7,8 @@ playground for experimentation of concepts.
 
 The Initial block structure is based on the following
 
-1.Index
-    Index being the location in the chain ( eg genesis block index=0)
+1.Index<br>
+    Index being the location in the chain ( eg genesis block index=0)<br>
 2.Timestamp
 
 3.Transactions
