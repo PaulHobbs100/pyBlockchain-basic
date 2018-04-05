@@ -8,7 +8,7 @@ playground for experimentation of concepts.
 The Initial block structure is based on the following
 
 1.Index
-
+    Index being the location in the chain ( eg genesis block index=0)
 2.Timestamp
 
 3.Transactions
@@ -23,7 +23,7 @@ The Initial block structure is based on the following
 
 
 
-1. Index being the location in the chain ( eg genesis block index=0)
+1.
 2. Timestamp, when the block was completed
 3. Transactions, saved value transactions ( like Bitcoin)
 4. Contract, Code that can be saved and executed ( like Ethereum, smart contract)
